@@ -1,12 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="chat container">
+    <h2>Chat {{this.name}}</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Chat"
+  name: "Chat",
+  props: ["name"],
+  data() {}
 };
 </script>
-
+<style>
+</style>
