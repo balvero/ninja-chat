@@ -9,7 +9,7 @@ var config = {
   storageBucket: "ninja-chat-a4a8c.appspot.com",
   messagingSenderId: "197330906659"
 };
-firebase.initializeApp(config);
+const firebaseApp = firebase.initializeApp(config);
 
 //export firestore database
 export default firebaseApp.firestore();
